@@ -4,12 +4,27 @@
 
 using namespace std;
 
+class Instruction {
+private:
+  
+public:
+  Instruction(/* args */) = default;
+};
+
+//Floating point register
+class FPRegisters {
+private:
+  /* data */
+public:
+  FPRegisters(/* args */) = default;
+};
+
 //Reservation Station
 class RStation {
 private:
   /* data */
 public:
-  RStation(/* args */) = default;
+  RStation(/* args */){};
 };
 
 
